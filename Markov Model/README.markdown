@@ -35,7 +35,7 @@ pip install music21 numpy
 
 1. **Prepare a MIDI File**: Obtain a monophonic MIDI file (e.g., a simple melody). Ensure the file is accessible on your system or in your working directory.
 
-2. **Update the Script**: In the Python script (`markov_music_generation.py`), update the `midi_file_path` variable in the `main` function to point to the exact path of your MIDI file. For example:
+2. **Update the Script**: In the Python script (`Markov_Model.py`), update the `midi_file_path` variable in the `main` function to point to the exact path of your MIDI file. For example:
 
    ```python
    midi_file_path = 'path/to/your/midi/file.mid'
@@ -44,7 +44,7 @@ pip install music21 numpy
 3. **Run the Script**: Execute the script in a Python environment (e.g., locally or in Google Colab):
 
    ```bash
-   python markov_music_generation.py
+   python Markov_Model.py
    ```
 
    The script will:
